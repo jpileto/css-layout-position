@@ -7,3 +7,58 @@
 html {
   font-family: Helvetica, Arial, serif;
 }
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: springgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-item {
+  margin-bottom: 5px;
+}
+
+,prime-text {
+  text-align: center;
+}
+
+.prime-text > h2 {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid slateblue;
+}
+
+.intro,
+.description,
+.about {
+  padding: 30px 20px;
+}
+
+.intro {
+  background-color: slateblue;
+}
+
+.description {
+  background-color: goldenrod;
+}
+
+.about {
+  background-color: royalblue;
+}
