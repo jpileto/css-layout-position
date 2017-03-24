@@ -42,7 +42,7 @@ ul {
 .prime-text > h2 {
   display: inline-block;
   padding-bottom: 5px;
-  border-bottom: 5px solid slateblue;
+  /*border-bottom: 5px solid slateblue;*/
 }
 
 .intro,
@@ -52,13 +52,103 @@ ul {
 }
 
 .intro {
-  background-color: slateblue;
+  background-color: goldenrod;
 }
 
 .description {
-  background-color: goldenrod;
+  background-color: gainsboro;
 }
 
 .about {
   background-color: royalblue;
+}
+
+footer {
+  background-color: springgreen;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.all-about {
+  overflow: hidden;
+}
+
+.fun,
+.values,
+.meow {
+  float: left;
+  width: 33.333333333333%;
+  text-align: center;
+  color: fuchsia;
+}
+
+.product-list {
+  overflow: hidden;
+}
+
+.product-picture {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.product-picture > img {
+  border: 2px solid black;
+}
+
+.prime {
+  overflow: hidden;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}
+
+.prime-image {
+  float: left;
+  width: 60%;
+  font-size: 30px;
+}
+
+.prime-text {
+  float: left;
+  width: 40%;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+,prime-text > h2 {
+  border: 0px;
+}
+
+header {
+  overflow: hidden;
+  height: 60px;
+  padding: 0 25px;
+}
+
+.banner {
+  float: left;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.navbar {
+  float: right;
+  padding: 0px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
 }
